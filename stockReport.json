@@ -1,0 +1,30 @@
+{
+	"first": [
+		{
+			"stockName": "Idea",
+			"numberOfStock": 5,
+			"price": 5000
+		}
+	],
+	"second": [
+		{
+			"stockName": "Vodafone",
+			"numberOfStock": 6,
+			"price": 6000
+		}
+	],
+	"third": [
+		{
+			"stockName": "Jio",
+			"numberOfStock": 7,
+			"price": 7000
+		}
+	],
+	"fourth": [
+		{
+			"stockName": "Airtel",
+			"numberOfStock": 8,
+			"price": 8000
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"first": [
+		{
+			"name": "Idea",
+			"share": 5,
+			"price": 12000,
+			"date": "22/4/2019"
+		}
+	],
+	"second": [
+		{
+			"name": "Jio",
+			"share": 6,
+			"price": 16000,
+			"date": "10/9/2019"
+		}
+	],
+	"third": [
+		{
+			"name": "Airtel",
+			"share": 7,
+			"price": 17000,
+			"date": "10/6/2019"
+		}
+	],
+	"fourth": [
+		{
+			"name": "Vodafone",
+			"share": 8,
+			"price": 18000,
+			"date": "10/12/2019"
+		}
+	][
+ 		{ "name" : "Vodafone", "share" : 8 , "price" : 18000, "date" : "10/12/2019"}
+ 		],
+ 		
