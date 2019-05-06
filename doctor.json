@@ -1,0 +1,37 @@
+{
+"first":[
+	    {
+		"name": "Manish",
+		"id": 1,
+		"specialization": "Cardiologist",
+		"availability": "AM",
+		"patients": 5,
+		"date": "21-3-2019"
+	   }],
+"second":[ {
+		"name": "Kalyani",
+		"id": 2,
+		"specialization": "Dermatologists",
+		"availability": "AM",
+		"patients": 5,
+		"date": "21-3-2018"
+	}],
+	"third":[{
+		"name": "Shweta",
+		"id": 3,
+		"specialization": "Neurologists",
+		"availability": "PM",
+		"patients": 4,
+		"date": "21-3-2018"
+	}],
+	"fourth":[
+	{
+		"name": "sahil",
+		"id": 1,
+		"specialization": "eye",
+		"availability": "am",
+		"patients": 4,
+		"date": null
+	}
+]
+}
