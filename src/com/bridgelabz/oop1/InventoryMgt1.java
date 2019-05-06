@@ -15,7 +15,15 @@ public class InventoryMgt1 {
 		// TODO Auto-generated method stub
 
 		ObjectMapper mapper = new ObjectMapper();
+<<<<<<< HEAD
 		File file = new File("/home/admin123/eclipse-workspace/oopsWeek3/src/com/bridgelabz/Data.json");
+=======
+<<<<<<< HEAD
+		File file = new File("/home/admin123/eclipse-workspace/oopsWeek3/src/com/bridgelabz/Data.json");
+=======
+		File file = new File("/home/admin123/eclipse-workspace/Week3/src/com/bridgelabz/Data.json");
+>>>>>>> 0518accb6ace976e0106803c710d267c7607abad
+>>>>>>> 86d9f77761ee8a93c2fc9f08042e88a2c5fcc25f
 		JsonNode node = mapper.readTree(file);
 		JsonNode node1 = node.get("rice");
 		meal = mapper.readValue(node1, Meal[].class);
@@ -23,14 +31,30 @@ public class InventoryMgt1 {
 		for (Meal meal1 : meal) {
 			System.out.println(meal1);
 		}
+<<<<<<< HEAD
 		System.out.println("-----------Pulses--------------------------------");
+=======
+<<<<<<< HEAD
+		System.out.println("-----------Pulses--------------------------------");
+=======
+		System.out.println("-----------Pulses------------------------");
+>>>>>>> 0518accb6ace976e0106803c710d267c7607abad
+>>>>>>> 86d9f77761ee8a93c2fc9f08042e88a2c5fcc25f
 		node1 = node.get("pulses");
 		meal = mapper.readValue(node1, Meal[].class);
 		for (Meal pulses : meal) {
 			System.out.println(pulses);
 		}
 
+<<<<<<< HEAD
 		System.out.println("-----------Wheats-------------------------------");
+=======
+<<<<<<< HEAD
+		System.out.println("-----------Wheats-------------------------------");
+=======
+		System.out.println("-----------Wheats------------------------");
+>>>>>>> 0518accb6ace976e0106803c710d267c7607abad
+>>>>>>> 86d9f77761ee8a93c2fc9f08042e88a2c5fcc25f
 		node1 = node.get("wheats");
 		meal = mapper.readValue(node1, Meal[].class);
 		for (Meal wheats : meal) {

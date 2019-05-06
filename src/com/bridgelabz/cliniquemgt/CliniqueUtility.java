@@ -39,8 +39,12 @@ public class CliniqueUtility {
 		ArrayList<Patient> patientlist = new ArrayList<Patient>();
 		node = mapper.readTree(file);
 		String string[] = { "first", "second", "third" };
+<<<<<<< HEAD
 		for (int i = 0; i < string.length; i++)
 		{
+=======
+		for (int i = 0; i < string.length; i++) {
+>>>>>>> 86d9f77761ee8a93c2fc9f08042e88a2c5fcc25f
 			node1 = node.get(string[i]);
 			doctor1 = mapper.readValue(node1, Doctor[].class);
 
@@ -169,7 +173,11 @@ public class CliniqueUtility {
 				System.out.println("4.Search patient by age :");
 				System.out.println("Enter your choice  :");
 				int choice2 = uti.inputInteger();
+<<<<<<< HEAD
 				switch (choice2) {
+=======
+				switch (choice) {
+>>>>>>> 86d9f77761ee8a93c2fc9f08042e88a2c5fcc25f
 				case 1:
 					System.out.println("Enter patient id  :");
 					int id = uti.inputInteger();

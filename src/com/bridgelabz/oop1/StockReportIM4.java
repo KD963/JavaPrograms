@@ -1,5 +1,12 @@
 package com.bridgelabz.oop1;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+import java.awt.Stroke;
+>>>>>>> 0518accb6ace976e0106803c710d267c7607abad
+>>>>>>> 86d9f77761ee8a93c2fc9f08042e88a2c5fcc25f
 import java.io.File;
 import java.io.IOException;
 
@@ -16,7 +23,15 @@ public class StockReportIM4 {
 		double price = 0;
 
 		ObjectMapper mapper = new ObjectMapper();
+<<<<<<< HEAD
 		File file = new File("/home/admin123/eclipse-workspace/oopsWeek3/stockReport.json");
+=======
+<<<<<<< HEAD
+		File file = new File("/home/admin123/eclipse-workspace/oopsWeek3/stockReport.json");
+=======
+		File file = new File("/home/admin123/eclipse-workspace/Week3/stockReport.json");
+>>>>>>> 0518accb6ace976e0106803c710d267c7607abad
+>>>>>>> 86d9f77761ee8a93c2fc9f08042e88a2c5fcc25f
 
 		JsonNode node = mapper.readTree(file);
 		JsonNode node1 = null;

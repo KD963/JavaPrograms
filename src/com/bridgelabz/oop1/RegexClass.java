@@ -1,7 +1,10 @@
 package com.bridgelabz.oop1;
 
 import java.io.File;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 86d9f77761ee8a93c2fc9f08042e88a2c5fcc25f
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -12,7 +15,11 @@ public class RegexClass {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
+<<<<<<< HEAD
 		File file = new File("/home/admin123/eclipse-workspace/oopsWeek3/regex.txt");
+=======
+		File file = new File("/home/admin123/eclipse-workspace/Week3/regex.txt");
+>>>>>>> 86d9f77761ee8a93c2fc9f08042e88a2c5fcc25f
 		Scanner scanner = new Scanner(file);
 		String string = " ";
 		while (scanner.hasNext()) {
